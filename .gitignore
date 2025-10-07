@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.h5
+*.hdf5
+data/
+raw_data/
+processed_data/
+
+# Model files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.model
+*.pth
+models/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Personal/Sensitive
+credentials.json
+secrets.yaml
+config.ini
+*.key
+
+# Output files
+output/
+results/
+figures/
+plots/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Documentation build
+docs/_build/

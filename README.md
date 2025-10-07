@@ -25,10 +25,10 @@ Data Scientist with a multidisciplinary background combining Data Science (UNIR)
 
 | Project | Technologies | Business Impact | Link |
 |---------|--------------|-----------------|------|
-| **Air Quality Analysis with PySpark** | PySpark, SQL, Big Data | Processed 100K+ pollution records from Madrid, complex temporal analysis | [View](./actividad_10_ivonis_florindo.ipynb) |
-| **Diamond Price Classification** | Python, scikit-learn, ML | 78% accuracy predicting diamond cut quality | [View](./diamonds_ivonis_florindo_v2.ipynb) |
-| **Brain Tumor Detection** | TensorFlow, Keras, CNN | 78% accuracy, 0.82 AUC-ROC for medical imaging | [View](./proyecto_4_ivonis_florindo.pdf) |
-| **Customer Tips Prediction** | Python, pandas, ML | Comparative analysis of 5 algorithms with cross-validation | [View](./tips_ivonis_florindo.ipynb.ipynb) |
+| **Air Quality Analysis with PySpark** | PySpark, SQL, Big Data | Processed 100K+ pollution records from Madrid, complex temporal analysis | [View](./spark_air_quality_analysis.ipynb) |
+| **Diamond Price Classification** | Python, scikit-learn, ML | 78% accuracy predicting diamond cut quality | [View](./diamond_price_classification.ipynb) |
+| **Brain Tumor Detection** | TensorFlow, Keras, CNN | 78% accuracy, 0.82 AUC-ROC for medical imaging | [View](./brain_tumor_detection_cnn.pdf) |
+| **Customer Tips Prediction** | Python, pandas, ML | Comparative analysis of 5 algorithms with cross-validation | [View](./restaurant_tips_prediction.ipynb) |
 | **Real Estate Lead Segmentation** | Random Forest, Python | 72% precision in identifying potential customers, 15% conversion increase | Private (Company IP) |
 
 ## 💼 Professional Experience
@@ -79,15 +79,20 @@ Data Scientist with a multidisciplinary background combining Data Science (UNIR)
 ```
 portfolio/
 ├── README.md (this file)
-├── spark-projects/
-│   └── actividad_10_ivonis_florindo.ipynb - Air quality analysis with PySpark
-├── machine-learning/
-│   ├── diamonds_ivonis_florindo_v2.ipynb - Multiclass classification
-│   └── tips_ivonis_florindo.ipynb - Regression analysis
-├── deep-learning/
-│   └── brain_tumor_detection/ - CNN for medical imaging
-└── data-analysis/
-    └── exploratory-analysis/ - Various EDA projects
+├── notebooks/
+│   ├── spark_air_quality_analysis.ipynb - PySpark analysis of Madrid air pollution
+│   ├── diamond_price_classification.ipynb - ML classification with 78% accuracy
+│   ├── restaurant_tips_prediction.ipynb - Regression analysis and comparison
+│   ├── exploratory_data_analysis.ipynb - EDA techniques and visualizations
+│   ├── statistical_modeling_project.ipynb - Statistical analysis and modeling
+│   └── ml_classification_project.ipynb - Machine learning classification
+├── reports/
+│   ├── brain_tumor_detection_cnn.pdf - Deep learning for medical imaging
+│   ├── machine_learning_algorithms_comparison.pdf - Algorithm benchmarking
+│   ├── deep_learning_image_classification.pdf - CNN image classification
+│   ├── AI_program_project_phase1.pdf - AI program project documentation
+│   └── data_science_fundamentals.pdf - Data science foundations
+└── .gitignore
 ```
 
 ---

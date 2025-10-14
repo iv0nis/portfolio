@@ -10,7 +10,7 @@ Data Scientist with a multidisciplinary background combining Data Science (UNIR)
 ## 🚀 Skills
 
 ### Programming & Tools
-![Python](https://img.shields.io/badge/Python-Expert-brightgreen)
+![Python](https://img.shields.io/badge/Python-Intermediate-yellow)
 ![PySpark](https://img.shields.io/badge/PySpark-Intermediate-yellow)
 ![R](https://img.shields.io/badge/R-Learning-orange)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-yellow)
@@ -25,9 +25,11 @@ Data Scientist with a multidisciplinary background combining Data Science (UNIR)
 
 | Project | Technologies | Business Impact | Link |
 |---------|--------------|-----------------|------|
+| **AWS SageMaker Real Estate ML System** | AWS SageMaker, Python, ML, Cloud | End-to-end ML pipeline for property inventory scoring and time-to-sell prediction | [View](./AWS_SageMaker_Real_Estate_ML_System.pdf) |
+| **Gentrification Risk Prediction (Madrid)** | Random Forest, Python, ML | Predictive tool for social exclusion prevention, designed for public policy institutions (OEISM, FOESSA) | [View](./gentrification_risk_prediction_madrid.pdf) |
 | **Air Quality Analysis with PySpark** | PySpark, SQL, Big Data | Processed 100K+ pollution records from Madrid, complex temporal analysis | [View](./spark_air_quality_analysis.ipynb) |
 | **Diamond Price Classification** | Python, scikit-learn, ML | 78% accuracy predicting diamond cut quality | [View](./diamond_price_classification.ipynb) |
-| **Brain Tumor Detection** | TensorFlow, Keras, CNN | 78% accuracy, 0.82 AUC-ROC for medical imaging | [View](./brain_tumor_detection_cnn.pdf) |
+| **Bank Marketing Prediction (Canvas)** | AWS SageMaker Canvas, No-code ML | 91% accuracy predicting bank marketing campaign success | [View](./bank_marketing_sagemaker_canvas.pdf) |
 | **Customer Tips Prediction** | Python, pandas, ML | Comparative analysis of 5 algorithms with cross-validation | [View](./restaurant_tips_prediction.ipynb) |
 | **Real Estate Lead Segmentation** | Random Forest, Python | 72% precision in identifying potential customers, 15% conversion increase | Private (Company IP) |
 
@@ -87,10 +89,10 @@ portfolio/
 │   ├── statistical_modeling_project.ipynb - Statistical analysis and modeling
 │   └── ml_classification_project.ipynb - Machine learning classification
 ├── reports/
-│   ├── brain_tumor_detection_cnn.pdf - Deep learning for medical imaging
+│   ├── AWS_SageMaker_Real_Estate_ML_System.pdf - End-to-end ML system with AWS
+│   ├── gentrification_risk_prediction_madrid.pdf - AI project for social exclusion prevention
+│   ├── bank_marketing_sagemaker_canvas.pdf - No-code ML with SageMaker Canvas
 │   ├── machine_learning_algorithms_comparison.pdf - Algorithm benchmarking
-│   ├── deep_learning_image_classification.pdf - CNN image classification
-│   ├── AI_program_project_phase1.pdf - AI program project documentation
 │   └── data_science_fundamentals.pdf - Data science foundations
 └── .gitignore
 ```
